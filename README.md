@@ -61,3 +61,6 @@ This repository includes `render.yaml` for Render Blueprint deployment.
 4. Deploy. Once live, verify `/`, `/health`, `/docs`, single-ticket analysis, and batch upload from the public URL.
 
 Service settings used by the blueprint: Python 3.12.7, build `pip install --upgrade pip && pip install -r requirements.txt`, start `uvicorn app.main:app --host 0.0.0.0 --port $PORT`, health check `/health`. Free-tier services spin down after inactivity, so the first request after a pause may take ~30–60 seconds.
+
+### Keeping the free instance awake
+`.github/workflows/keep-alive.yml` pings `/health` every 10 minutes between roughly 06:30 and 23:29 IST, which prevents the 15-minute spin-down during the hours a demo is likely to be viewed. Render grants 750 free instance-hours per workspace per month, shared by every free web service, so the workflow stays inside that budget (~510 hours) and leaves headroom for the other services. Change the cron expression to `*/10 * * * *` for 24/7 coverage, or move the service to the Starter plan to remove spin-down entirely.
