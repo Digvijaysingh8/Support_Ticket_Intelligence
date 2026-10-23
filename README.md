@@ -1,5 +1,7 @@
 # Support Ticket Intelligence
 
+**Live demo:** https://support-ticket-intelligence-i68m.onrender.com (free instance — first request after inactivity may take up to a minute)
+
 A reproducible prototype that routes support tickets, estimates priority, extracts selected fields, and produces a concise summary and evidence phrase.
 
 ## Features
