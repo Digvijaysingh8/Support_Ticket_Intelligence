@@ -1,20 +1,20 @@
 name: Keep Render service awake
 
 # Render free web services spin down after ~15 minutes of inactivity.
-# This workflow pings the health endpoint so the demo stays warm.
+# This workflow pings the health endpoint every 10 minutes, around the
+# clock, so the demo stays warm.
 #
-# Schedule is UTC. 01:00-17:59 UTC = 06:30-23:29 IST, ~17h/day (~510 of
-# Render's 750 free instance-hours/month), leaving headroom for the other
-# free services in the workspace.
+# Budget: 24/7 awake time is ~730 of the 750 free instance-hours Render
+# grants per workspace per month. Those hours are shared, so other free
+# web services in the workspace have very little headroom - they may be
+# suspended near the end of a month. Static sites do not consume hours.
 #
-# To keep it awake 24/7 instead, replace the cron line with:
-#   - cron: "*/10 * * * *"
-# Note: 24/7 uses ~730 of the 750 hours, which can suspend the workspace's
-# other free web services.
+# To limit the hours instead, use a window such as "*/10 1-17 * * *"
+# (06:30-23:29 IST, ~510 hours/month).
 
 on:
   schedule:
-    - cron: "*/10 1-17 * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions: {}
