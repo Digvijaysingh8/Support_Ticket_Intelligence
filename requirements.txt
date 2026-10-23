@@ -7,6 +7,6 @@ pandas>=2.2,<3.0
 python-multipart>=0.0.9
 pytest>=8.0,<9.0
 httpx>=0.27,<1.0
-groq
-python-dotenv
-dateparser
+groq>=0.11,<2.0
+python-dotenv>=1.0,<2.0
+dateparser>=1.2,<2.0
