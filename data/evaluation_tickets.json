@@ -1,0 +1,182 @@
+[
+  {
+    "ticket_id": "E01",
+    "text": "I was charged twice for order ORD-4821; please refund the extra charge today.",
+    "category": "Billing",
+    "priority": "High"
+  },
+  {
+    "ticket_id": "E02",
+    "text": "My invoice lists an unexpected subscription fee. Can you explain it?",
+    "category": "Billing",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E03",
+    "text": "Please update the payment method associated with my account.",
+    "category": "Billing",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E04",
+    "text": "I need a copy of last month's invoice when convenient.",
+    "category": "Billing",
+    "priority": "Low"
+  },
+  {
+    "ticket_id": "E05",
+    "text": "The refund for order ORD-5512 has not appeared after two weeks.",
+    "category": "Billing",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E06",
+    "text": "I cannot log in even after resetting my password; I need access immediately.",
+    "category": "Account Access",
+    "priority": "High"
+  },
+  {
+    "ticket_id": "E07",
+    "text": "The password reset link expired as soon as I opened it.",
+    "category": "Account Access",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E08",
+    "text": "Please unlock my account; I am locked out before a presentation in one hour.",
+    "category": "Account Access",
+    "priority": "High"
+  },
+  {
+    "ticket_id": "E09",
+    "text": "How do I change the email address used to sign in?",
+    "category": "Account Access",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E10",
+    "text": "Thanks, I can sign in now. No further action needed.",
+    "category": "Account Access",
+    "priority": "Low"
+  },
+  {
+    "ticket_id": "E11",
+    "text": "My package has not arrived and tracking is stuck on out for delivery.",
+    "category": "Delivery",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E12",
+    "text": "Order ORD-8821 is missing and I need it for an event tomorrow.",
+    "category": "Delivery",
+    "priority": "High"
+  },
+  {
+    "ticket_id": "E13",
+    "text": "Can you share the tracking number for my shipment?",
+    "category": "Delivery",
+    "priority": "Low"
+  },
+  {
+    "ticket_id": "E14",
+    "text": "The replacement arrived and everything is working now.",
+    "category": "Delivery",
+    "priority": "Low"
+  },
+  {
+    "ticket_id": "E15",
+    "text": "My parcel was marked delivered but it is not at my address.",
+    "category": "Delivery",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E16",
+    "text": "The dashboard returns error 503 whenever I export a report; I have a meeting in one hour.",
+    "category": "Technical Issue",
+    "priority": "High"
+  },
+  {
+    "ticket_id": "E17",
+    "text": "The app crashes every time I open the settings page.",
+    "category": "Technical Issue",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E18",
+    "text": "The website is loading slowly this afternoon.",
+    "category": "Technical Issue",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E19",
+    "text": "The export feature fails and our production reporting is down; urgent help needed.",
+    "category": "Technical Issue",
+    "priority": "High"
+  },
+  {
+    "ticket_id": "E20",
+    "text": "Thank you, the bug is fixed and everything is working now.",
+    "category": "Technical Issue",
+    "priority": "Low"
+  },
+  {
+    "ticket_id": "E21",
+    "text": "What features are included in the Pro plan? I am comparing plans for next month.",
+    "category": "Other",
+    "priority": "Low"
+  },
+  {
+    "ticket_id": "E22",
+    "text": "Can you explain the difference between the standard and premium plans?",
+    "category": "Other",
+    "priority": "Low"
+  },
+  {
+    "ticket_id": "E23",
+    "text": "I would like to submit feedback about the new website design.",
+    "category": "Other",
+    "priority": "Low"
+  },
+  {
+    "ticket_id": "E24",
+    "text": "Please tell me where to find your office address.",
+    "category": "Other",
+    "priority": "Low"
+  },
+  {
+    "ticket_id": "E25",
+    "text": "I have a general question about how your service works.",
+    "category": "Other",
+    "priority": "Low"
+  },
+  {
+    "ticket_id": "E26",
+    "text": "The invoice is incorrect and I have been billed for the same item twice.",
+    "category": "Billing",
+    "priority": "High"
+  },
+  {
+    "ticket_id": "E27",
+    "text": "I need my account restored because I cannot sign in to work.",
+    "category": "Account Access",
+    "priority": "High"
+  },
+  {
+    "ticket_id": "E28",
+    "text": "Tracking has not updated for five days; please investigate my delivery.",
+    "category": "Delivery",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E29",
+    "text": "The report download button is broken on the dashboard.",
+    "category": "Technical Issue",
+    "priority": "Medium"
+  },
+  {
+    "ticket_id": "E30",
+    "text": "No questions now, thanks for your help. The issue is resolved.",
+    "category": "Other",
+    "priority": "Low"
+  }
+]

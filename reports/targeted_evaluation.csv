@@ -1,0 +1,10 @@
+ticket_id,text,expected_category,baseline_category,new_category,expected_priority,baseline_priority,new_priority,category_evidence,priority_evidence,error
+E03,Please update the billing email on my account for future invoices.,Billing,Billing,Billing,Low,Medium,Medium,,,
+E06,"The payment failed, but the amount is still showing as deducted by my bank. Please investigate.",Billing,Billing,Billing,High,Medium,High,,,
+E17,Please help me reset my password when you have a chance; I can still access my account.,Account Access,Account Access,Account Access,Medium,Low,Medium,,,
+E18,"My package has not arrived, and tracking has shown out for delivery for three days. Order ORD-1190.",Delivery,Delivery,Delivery,High,Medium,High,,,
+E20,My order arrived with one item missing. Please send the missing item as soon as possible.,Delivery,Delivery,Delivery,High,Medium,High,,,
+E24,"Thanks, the replacement arrived and everything is working now. No further action is needed.",Other,Delivery,Delivery,Low,Low,Low,,,
+E27,Our team needs clarification on whether multiple users can share one workspace.,Other,Other,Other,Medium,Low,Low,,,
+E28,I need to report a possible security issue in the public documentation; please route this to the right team.,Other,Other,Other,High,Low,High,,,
+E30,"I received a confirmation email, but I am unsure whether my order was submitted successfully.",Other,Delivery,Other,Medium,Low,Low,,,

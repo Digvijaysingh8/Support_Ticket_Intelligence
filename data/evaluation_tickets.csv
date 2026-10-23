@@ -1,0 +1,31 @@
+ticket_id,text,expected_category,expected_priority
+E01,I was charged twice for order ORD-7101. Please refund the extra payment today.,Billing,High
+E02,My invoice shows a tax amount that does not match the checkout total. Can you correct it?,Billing,Medium
+E03,Please update the billing email on my account for future invoices.,Billing,Low
+E04,I cancelled my subscription last week but was billed again this morning. Reverse the charge immediately.,Billing,High
+E05,Could you explain the difference between the monthly and annual plan prices?,Billing,Low
+E06,"The payment failed, but the amount is still showing as deducted by my bank. Please investigate.",Billing,High
+E07,"The application crashes whenever I export a report, and I need the report for a meeting in one hour.",Technical Issue,High
+E08,"The dashboard has been loading slowly since yesterday, but I can still use it.",Technical Issue,Medium
+E09,I get error 503 every time I open the analytics page. Please help me fix it.,Technical Issue,High
+E10,The search box does not return results when I enter a product name.,Technical Issue,Medium
+E11,How can I change the dashboard theme from light to dark?,Technical Issue,Low
+E12,The app freezes during checkout and I cannot complete today's urgent order.,Technical Issue,High
+E13,I cannot log in after resetting my password; the reset link says it expired immediately.,Account Access,High
+E14,Please unlock my account. I have tried signing in several times and now access is blocked.,Account Access,High
+E15,I no longer have access to my old phone and cannot complete two-factor authentication.,Account Access,High
+E16,How do I change my display name in my profile settings?,Account Access,Low
+E17,Please help me reset my password when you have a chance; I can still access my account.,Account Access,Medium
+E18,"My package has not arrived, and tracking has shown out for delivery for three days. Order ORD-1190.",Delivery,High
+E19,The tracking page has not updated since the package left the warehouse two days ago.,Delivery,Medium
+E20,My order arrived with one item missing. Please send the missing item as soon as possible.,Delivery,High
+E21,Can you tell me the estimated delivery date for order ORD-4420?,Delivery,Low
+E22,The package was delivered to the wrong address and contains an item I need for tomorrow's event.,Delivery,High
+E23,Can someone explain what features are included in the Pro plan? I am comparing plans for next month.,Other,Low
+E24,"Thanks, the replacement arrived and everything is working now. No further action is needed.",Delivery,Low
+E25,I would like to submit feedback about the wording on your website; it is confusing but does not block me.,Other,Low
+E26,Please provide a copy of your company's accessibility statement for our internal review next week.,Other,Low
+E27,Our team needs clarification on whether multiple users can share one workspace.,Other,Medium
+E28,I need to report a possible security issue in the public documentation; please route this to the right team.,Other,High
+E29,"The account invitation email has not arrived, so our new employee cannot start work today.",Account Access,High
+E30,"I received a confirmation email, but I am unsure whether my order was submitted successfully.",Other,Medium
