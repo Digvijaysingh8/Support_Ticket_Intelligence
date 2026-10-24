@@ -1,0 +1,31 @@
+ticket_id,text,expected_category,expected_priority
+H01,"My monthly subscription was charged twice and I need the duplicate payment refunded.",Billing,Medium
+H02,"The invoice shows a higher amount than the plan price I agreed to. Please review the charge.",Billing,Medium
+H03,"Our company card was charged after we cancelled the subscription last week.",Billing,High
+H04,"Where can I download the receipt for my payment last month?",Billing,Low
+H05,"The payment failed, but my bank account still shows the money deducted. Please investigate urgently.",Billing,High
+H06,"Please update the billing contact email on our next invoice. There is no payment issue.",Billing,Low
+H07,"I cannot sign in because the password reset link says it has expired.",Account Access,Medium
+H08,"My account is locked and none of our team members can access the production workspace.",Account Access,High
+H09,"How can I change the email address used to log in?",Account Access,Medium
+H10,"Please tell me where to enable two-factor authentication for my account.",Account Access,Low
+H11,"I keep receiving an invalid credentials error even after resetting my password several times.",Account Access,High
+H12,"I would like to change the display name shown on my profile.",Other,Low
+H13,"The tracking page says my package was delivered, but nothing arrived at my address.",Delivery,High
+H14,"Could you tell me the estimated delivery date for order ORD-6104?",Delivery,Low
+H15,"My order arrived with the main item missing. Please arrange a replacement.",Delivery,High
+H16,"The replacement shipment has not moved for five business days and our launch is tomorrow.",Delivery,High
+H17,"Can I change the shipping address before the parcel is dispatched?",Delivery,Medium
+H18,"I received a notification that my package shipped. I just want to know how tracking works.",Delivery,Low
+H19,"The reports page returns HTTP 500 every time I open it, so our team cannot access reports.",Technical Issue,High
+H20,"The export button does nothing when I click it, but the rest of the dashboard works.",Technical Issue,Medium
+H21,"The application freezes whenever I upload a CSV larger than a few megabytes.",Technical Issue,High
+H22,"How do I switch the dashboard from light mode to dark mode?",Other,Low
+H23,"The chart labels overlap after I resize the browser window. Is there a workaround?",Technical Issue,Medium
+H24,"The website is responding slowly today, but I can still complete my work.",Technical Issue,Medium
+H25,"Please explain whether one workspace can contain multiple projects.",Other,Low
+H26,"I want to submit feedback about a feature that would make the product easier to use.",Other,Low
+H27,"I noticed a possible security weakness and would like the security team to review it promptly.",Other,High
+H28,"Can you explain the difference between the Standard and Pro plans before I choose one?",Other,Low
+H29,"Our whole team is unable to access the service because the login page returns an error for everyone.",Account Access,High
+H30,"The invoice is available, but I do not understand what the line item labelled service adjustment means.",Billing,Low
